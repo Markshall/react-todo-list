@@ -1,0 +1,32 @@
+.TodoItem {
+  margin-bottom: 20px;
+  background-color: #79b1f6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  transition: opacity 250ms ease;
+}
+
+.TodoItem.completed {
+  opacity: .4;
+}
+
+.TodoItem.completed .TodoItem-label {
+  text-decoration: line-through;
+}
+
+.TodoItem-buttons button {
+  margin-right: 5px;
+  padding: 4px 8px;
+  font-size: .8rem;
+}
+
+.TodoItem-buttons button:last-child {
+  margin-right: 0;
+}
+
+.TodoItem-label {
+  cursor: pointer;
+}

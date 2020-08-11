@@ -1,0 +1,23 @@
+.TodoItemForm {
+  display: flex;
+  align-items: center;
+}
+
+.TodoItemForm input {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #194f92;
+  padding: 10px;
+  background-color: #4784ce;
+  color: #fff;
+  font: inherit;
+}
+
+.TodoItemForm input {
+  border-radius: 3px 0 0 3px;
+}
+
+.TodoItemForm button {
+  border-radius: 0 3px 3px 0;
+  border-left: none;
+}

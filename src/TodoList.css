@@ -1,0 +1,13 @@
+.TodoList {
+  max-width: 500px;
+  background-color: #5d9be8;
+  margin: 70px auto 0;
+  padding: 20px;
+  border-radius: 5px;
+  border-bottom: 2px solid #37659e;
+}
+
+.TodoList ul {
+  padding-left: 0;
+  list-style: none;
+}
